@@ -20,7 +20,7 @@ PalPodFix is a Palworld mod compatibility helper that automates several local in
 
 All source code is available at:
 
-**https://github.com/[YOUR-USERNAME]/PalPodFix**
+**https://github.com/Yellowchick-dresseur/Compatibility-patch-for-PalPod-Palworld-mod-on-UE4SS-3.0.1-**
 
 The repository contains the exact same files as the Nexus archive, plus this BUILD_INSTRUCTIONS.md file.
 
