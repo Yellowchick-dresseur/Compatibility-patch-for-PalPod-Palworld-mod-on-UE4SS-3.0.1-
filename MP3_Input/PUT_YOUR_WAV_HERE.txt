@@ -1,0 +1,6 @@
+Place your .wav files here.
+
+The installer will copy them to PalPod's Music folder.
+
+Note: PalPod only reads .wav files. If you have MP3, convert
+them first with any tool (ffmpeg, Audacity, online converters).

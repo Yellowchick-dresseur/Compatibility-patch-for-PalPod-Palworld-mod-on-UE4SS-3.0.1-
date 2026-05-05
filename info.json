@@ -1,0 +1,15 @@
+{
+    "name": "PalPodFix",
+    "version": "1.2.0",
+    "author": "[your-nexus-username]",
+    "description": "Companion patch for PalPod that fixes UE4SS 3.0.1+ compatibility issues without modifying PalPod's files",
+    "modtype": "lua",
+    "homepage": "https://www.nexusmods.com/palworld/mods/[your-mod-id]",
+    "dependencies": [
+        {
+            "name": "PalPod",
+            "version": ">=0.0.1.6",
+            "url": "https://www.nexusmods.com/palworld/mods/999"
+        }
+    ]
+}

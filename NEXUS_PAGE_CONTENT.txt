@@ -1,0 +1,146 @@
+============================================================
+ NEXUS PAGE CONTENT - Ready to copy-paste
+============================================================
+
+Below are pre-formatted texts for each section of your Nexus mod page.
+
+============================================================
+ MOD TITLE
+============================================================
+
+PalPodFix - Compatibility Patch for PalPod (UE4SS 3.0.1+)
+
+============================================================
+ SHORT DESCRIPTION (under 100 chars)
+============================================================
+
+Companion patch that makes PalPod work properly with UE4SS 3.0.1+
+
+============================================================
+ CATEGORY
+============================================================
+
+Tools and Utilities
+(or "Patches" if available)
+
+============================================================
+ LONG DESCRIPTION (paste in the description editor)
+============================================================
+
+[size=5][b]PalPodFix - Compatibility Patch[/b][/size]
+
+A community-made compatibility helper that makes [url=https://www.nexusmods.com/palworld/mods/999]PalPod by Zurr[/url] work properly with the latest UE4SS (3.0.1+) on Steam.
+
+[b][color=red]This is NOT a replacement for PalPod![/color][/b] You must install PalPod first. This patch only helps configure your local installation and adds a diagnostic companion mod. It contains no PalPod code or assets.
+
+[size=4][b]What this patch does[/b][/size]
+
+The included installer:
+
+[list=1]
+[*]Detects your Steam Palworld installation
+[*]Detects your UE4SS version (3.0.1+ or legacy)
+[*]Moves PalPod to the correct UE4SS folder structure
+[*]Diagnoses PalPod's main.lua for known issues (does NOT modify it)
+[*]Cleans duplicates in mods.txt
+[*]Installs PalPodFix companion mod (F8 hotkey for diagnostics)
+[*]Renames .mp3 to .wav in your Music folder (with your permission)
+[/list]
+
+Plus an [b]optional[/b] standalone helper script you can run yourself if you want to apply the main.lua fixes automatically on your local PalPod copy.
+
+[size=4][b]Installation[/b][/size]
+
+[list=1]
+[*]Install [url=https://github.com/UE4SS-RE/RE-UE4SS/releases]UE4SS 3.0.1+[/url]
+[*]Install [url=https://www.nexusmods.com/palworld/mods/999]PalPod[/url] (the actual music player)
+[*]Run [b]Installer.bat[/b] from this archive
+[*]Follow the prompts
+[/list]
+
+[size=4][b]In-game controls[/b][/size]
+
+[list]
+[*][b]N[/b] - Open/close PalPod menu (PalPod's binding)
+[*][b]O[/b] - Toggle playback (PalPod's binding)
+[*][b]F8[/b] - NEW: Show PalPodFix diagnostics in console
+[/list]
+
+[size=4][b]Adding your music[/b][/size]
+
+PalPod only reads .wav files. Convert your MP3s to WAV with any tool, then drop them in:
+
+[code]Pal\Content\Paks\LogicMods\PalPodData\Music\[/code]
+
+In-game: open PalPod (N) -> Refresh -> your tracks appear.
+
+[size=4][b]Known limitations[/b][/size]
+
+[list]
+[*]Random/Shuffle and Loop modes are buggy in PalPod's Blueprint and cannot be fixed by a Lua patch
+[*]Game Pass version not supported (Steam only)
+[/list]
+
+[size=4][b]Credits[/b][/size]
+
+[list]
+[*][url=https://www.nexusmods.com/palworld/mods/999][b]PalPod[/b] by Zurr[/url] - the original music player mod (this patch is unaffiliated)
+[*][url=https://github.com/UE4SS-RE/RE-UE4SS][b]UE4SS[/b] by the UE4SS-RE team[/url] - the modding framework
+[/list]
+
+[size=4][b]License[/b][/size]
+
+This patch is released under the MIT License. PalPod itself remains under Zurr's original terms - please respect them.
+
+[size=4][b]Source code[/b][/size]
+
+The patch is fully open source. Inspect [b]LANCER_INSTALLATION.ps1[/b] and [b]PalPodFix\Scripts\main.lua[/b] to verify what it does. Nothing is obfuscated.
+
+[size=4][b]Disclaimer[/b][/size]
+
+This patch is unofficial and not endorsed by Zurr. If Zurr requests removal, this mod will be taken down immediately. Zurr is welcome to incorporate any of these ideas into an official PalPod update.
+
+============================================================
+ TAGS (suggested)
+============================================================
+
+palpod, music, audio, compatibility, patch, ue4ss, fix, music player, soundtrack, customization
+
+============================================================
+ IMAGES TO PROVIDE
+============================================================
+
+You'll need at minimum:
+
+1. A LOGO/THUMBNAIL (300x150 or similar, PNG)
+   - Suggestion: text "PalPodFix" with a small music icon
+   - Free tools: Canva, GIMP, even MS Paint
+   
+2. SCREENSHOTS (optional but helps a lot):
+   - In-game PalPod menu showing your music list working
+   - Console output showing PalPodFix diagnostic messages
+   - Before/after screenshots if possible
+
+============================================================
+ PERMISSIONS / FILE MANAGEMENT
+============================================================
+
+Recommended settings:
+
+- Convert other users' files: NO
+- Modification permission: ASK
+- Conversion permission: ASK
+- Asset use permission: NO (you have no assets to share, but be safe)
+- Asset use permission in mods/files that earn donation points: NO
+
+This is a permissive enough setup that allows community improvements while still requiring contact for major changes.
+
+============================================================
+ INITIAL POST IN COMMENTS / FORUM
+============================================================
+
+Suggested opening message:
+
+"Hey Palworld modders! I noticed PalPod (the awesome music player by Zurr) had stopped working on the latest UE4SS, so I made this companion patch to fix the compatibility issues. It's 100% separate from PalPod itself - you still need to install PalPod first.
+
+Big thanks to Zurr for creating PalPod in the first place. If you're reading this Zurr, hope this is helpful! Feel free to incorporate any of these ideas into an official update."
