@@ -1,0 +1,1 @@
+# Compatibility-patch-for-PalPod-Palworld-mod-on-UE4SS-3.0.1-
